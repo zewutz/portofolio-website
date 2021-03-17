@@ -10,26 +10,26 @@ body {
 
 
 #username {
-    padding: 20px;
+    padding: 10px;
     color: #30475e;
     position: relative;
     padding: none;
     text-align: center;
-    top: -30px;
 }
+
 
 #name {
     position: relative;
     color: #30475e;
-    padding: none;
+    padding: 20px;
     text-align: center;
-    top: -60px;
+    top: -40px;
 }
 
 .my-information {
     position: absolute;
     margin: 0px;
-    padding: 20px;
+    padding: 0px 0px 0px 15px;
     background-color: #f3f3f3; 
     box-shadow: 0px 0px 20px #222831;
     width:100%;
@@ -56,14 +56,16 @@ body {
 .skills {
     position: absolute;
     margin: 0px;
-    padding: 20px;
+    padding: 0px;
+    color:#f3f3f3;
     background-color: #222831; 
     width:100%;
     height: 100vh;
+    align-items: center;
 }
 
 .skills #skills-title {
-    padding: 20px;
+    padding-top: 40px;
     color: #f05454;
     position: relative;
     padding: none;
@@ -71,6 +73,47 @@ body {
     top: -30px;
 }
 
+.skills #title {
+    text-align: center;
+    padding:none;
+}
+
+.skills ul {
+    position: absolute;
+    list-style: none;
+    padding:none;
+}
+
+.skills #row1{
+    position: relative;
+    padding: none;
+    padding-bottom: 20px;
+}
+
+.skills #row2 {
+    position: relative;
+    align-items: center;
+    padding: none;
+    padding-bottom: 20px;
+}
+
+.skills #row3 {
+    position: relative;
+    align-items: center;
+    padding: none;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.skills li {
+    position: relative;
+    padding: 0px;
+}
+
+.skills img {
+    filter:invert(100%);
+    padding: none;
+}
 
 
 
